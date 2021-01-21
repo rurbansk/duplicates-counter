@@ -21,6 +21,10 @@ a,b,b,b,b,b,d,h,h,h,p
 Example output:  
 a=1, b=5, d=1, h=3, p=1
 
+To generate data you can use data_generator.sh. It will create a sorted
+array of letters with size as a passed parameter. Size is 10 by default.
+Array is saved as test_data.txt.
+
 ## Description
 App is using two public methods to count:
 * countDuplicates - a simple for loop with adding letters to map string to 
